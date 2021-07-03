@@ -8,9 +8,6 @@ h1 {
 .orange-color {
     color: orange;
 }
-section {
-    display: flex;
-}
 .div-width-half {
     width: 50%;
     padding: 5%;
@@ -20,7 +17,7 @@ section {
 }
 .button {
     text-decoration: none;
-    background-image: linear-gradient(purple, rgb(68, 58, 216));
+    background-image: linear-gradient(75deg, orange, tomato);
     padding: 10px 40px;
     color: white;
     border-radius: 5px;
@@ -28,4 +25,43 @@ section {
 .banner {
     background-image: url(../images/banner.png);
     background-repeat: no-repeat;
+}
+.cool {
+    background-image: url(../images/cool.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.cool p {
+    padding-right: 10%;
+}
+.flexible {
+    display: flex;
+}
+.purple-color {
+    color: rgb(206, 104, 22);
+}
+.div-bottom {
+    width: 50%;
+    padding: 5%;
+    box-shadow: 10px 10px 30px gray;
+    margin: 0 5% 10% 5%; 
+    border-radius: 7px;
+    text-align: justify;
+}
+.bottom-bg {
+    background-image: url(../images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+#border-one {
+    border-left: 10px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+#border-two {
+    border-left: 10px solid;
+    border-image: linear-gradient(red,tomato);
+    border-image-slice: 1;
+}
+footer p {
+    text-align: center;
 }
